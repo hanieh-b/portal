@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.roydad{
+    height: auto;
+    background-color: #F5F5F5;
+    max-width: 1400px;
+    padding: 0 0 0 130px;
+}
+.roydad h3{
+        padding: 65px 45px;
+}
+.groh-amozeshi{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    position: relative;
+    gap: 10px;
+    width: 97%;
+    padding: 0 40px 0 0;
+}
+.card1{
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+
+}
+.card1 a{
+    height: 200px;
+}
+
+.card1 img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.card1 span{
+    position: absolute;
+    top: 150px;
+    font-size: 25px;
+    align-self: center;
+    justify-self: center;
+    color: white;
+
+}
+.card1:hover{
+    box-shadow: rgba(33, 32, 32, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+}
+@media screen and (max-width:1024px){
+    .roydad{
+        height: auto;
+        background-color: #F5F5F5;
+                max-width: 1400px;
+        width: 100%;
+    }
+    .roydad h3{
+        padding: 65px 63px;
+        font-size: 30px;
+    }
+    .groh-amozeshi{
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
+        position: relative;
+        gap: 15px;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:750px){
+    .roydad{
+        height: auto;
+        background-color: #F5F5F5;
+        max-width: 1400px;
+        width: 100%;
+    }
+    .roydad h3{
+        padding: 65px 48px;
+        font-size: 30px;
+    }
+    .groh-amozeshi{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        position: relative;
+        gap: 15px;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:320px){
+    .roydad{
+        height: auto;
+        background-color: #F5F5F5;
+        max-width: 1400px;
+        width: 100%;
+    }
+    .roydad h3{
+        padding: 65px 0;
+        font-size: 18px;
+    }
+    .groh-amozeshi{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        position: relative;
+        gap: 15px;
+        width: 100%;
+    }
+
+}
+.card1 span {
+    position: absolute;
+    top: 150px;
+    font-size: 19px;
+    align-self: center;
+    justify-self: center;
+    color: white;
+}
